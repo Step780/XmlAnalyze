@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="XmlAnalyze.ConnectionClass">
+    <Position X="2.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>ConnectionClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlAnalyze.SaveType" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="4" Width="1.5" />
+    <Members>
+      <Field Name="ph" Hidden="true" />
+      <Field Name="txt" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAABAgAA=</HashCode>
+      <FileName>SaveType.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XmlAnalyze.LineColorizerPrev">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAACAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>LineColorizerPrev.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlAnalyze.LineColorizerNull">
+    <Position X="7.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACACAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>LineColorizerNull.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlAnalyze.LineColorizerNext">
+    <Position X="6" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAACAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>LineColorizerNext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlAnalyze.LineColorizerDesktopMore">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACACAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>LineColorizerDesktopMore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlAnalyze.LineColorizerBase">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACACAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>LineColorizerBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlAnalyze.LineColorizer">
+    <Position X="9.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACACAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>LineColorizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlAnalyze.SUBDType" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAABAEAAEEAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>SUBDType.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XmlAnalyze.FromDesktopText">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FromDesktopText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlAnalyze.Base" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MgAAAAAAAAABAAAGAgEEBCEgCQABAAAAkAAACAAEgIA=</HashCode>
+      <FileName>Base.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XmlAnalyze.App">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlAnalyze.WebStorage" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WebStorage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XmlAnalyze.Main" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="XmlAnalyze.Main.TextLines" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Main.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="XmlAnalyze.Main.FileUpload" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Main.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>cgIC0BAABAAFABFCAAAKAAEFABQAAAACAAAACAQAggw=</HashCode>
+      <FileName>Main.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XmlAnalyze.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAABAAAAAAAAAARAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XmlAnalyze.BaseSaving">
+    <Position X="9.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAEAI=</HashCode>
+      <FileName>BaseSaving.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlAnalyze.LineColorizerPrevBase">
+    <Position X="6" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAACAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>LineColorizerPrevBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlAnalyze.LineColorizerPrevNull">
+    <Position X="2.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAACAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>LineColorizerPrevNull.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

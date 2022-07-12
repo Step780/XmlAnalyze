@@ -1,0 +1,45 @@
+﻿<Page x:Class="XmlAnalyze.Base"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      
+      xmlns:local="clr-namespace:XmlAnalyze"
+      
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Width="1440"
+      Height="1024"
+      Title="Base">
+
+    <Grid>
+        <TextBox x:Name="serverBox" HorizontalAlignment="Left" Height="38" Margin="541,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="369" TextChanged="serverBox_TextChanged" KeyDown="serverBox_KeyDown"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Height="38" Margin="541,238,0,0"  VerticalAlignment="Top" Width="369" KeyDown="passwordBox_KeyDown" TextInput="passwordBox_TextInput"/>
+        <Button x:Name="enterBtn" Content="Войти" HorizontalAlignment="Left" Margin="625,413,0,0" VerticalAlignment="Top" Width="190" Height="53" Click="enterBtn_Click"/>
+        <ComboBox Text="Выбор базы данных" Focusable="False" IsEditable="True" IsReadOnly="True" x:Name="baseBox" HorizontalAlignment="Left" Margin="172,888,0,0" VerticalAlignment="Top" Width="280" SelectionChanged="baseBox_SelectionChanged" Height="54">
+            <!--<ComboBoxItem Name="base">
+                <ComboBox Width="85" Height="21.96">
+                    
+                </ComboBox>
+            </ComboBoxItem>-->
+
+        </ComboBox>
+        <ToggleButton x:Name="themeButton"  Margin="1336,874,34,98" Width="70" Checked="themeButton_Checked" Unchecked="themeButton_Unchecked" Style="{StaticResource ToggleButtonStyle1}"/>
+        <ComboBox Text="Выбор таблицы" Focusable="False" IsEditable="True" IsReadOnly="True" x:Name="tableBox" HorizontalAlignment="Left" Margin="561,888,0,0" VerticalAlignment="Top" Width="280"  SelectionChanged="tableBox_SelectionChanged" Height="54"/>
+        <TextBox x:Name="loginBox" HorizontalAlignment="Left" Height="38" Margin="541,170,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="369" TextChanged="loginBox_TextChanged" KeyDown="loginBox_KeyDown"/>
+        <Button x:Name="convertBtn" Content="Конвертировать" HorizontalAlignment="Left" Margin="952,888,0,0" VerticalAlignment="Top" Width="230" Click="Button_Click" Height="54"/>
+        <RadioButton x:Name="radioYes" GroupName="WindowsAuth" Content="Да" HorizontalAlignment="Left" Margin="541,324,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_1"/>
+        <RadioButton x:Name="radioNo" GroupName="WindowsAuth" Content="Нет" HorizontalAlignment="Left" Margin="541,352,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <TextBlock x:Name="checkTxt" HorizontalAlignment="Left" Margin="614,299,0,0" TextWrapping="Wrap" Text="Проверка подлинности Windows" VerticalAlignment="Top" FontSize="15"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="20,20,0,0" VerticalAlignment="Top" Width="158" Click="Button_Click_1" Height="50"/>
+        <Button Content="Сменить СУБД" Margin="0,20,20,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="158" Click="Button_Click_2" Height="50"/>
+        <TextBlock x:Name="subdTxt" HorizontalAlignment="Left" Margin="1262,79,0,0" TextWrapping="Wrap" Text="Сейчас выбрана" VerticalAlignment="Top" FontSize="20" Width="158" Height="79"/>
+        <Image x:Name="themeImg" HorizontalAlignment="Left" Height="25" Margin="1360,917,0,0" VerticalAlignment="Top" Width="25" Source="Images/brightness.png"/>
+        <TextBlock x:Name="catchTxt" HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Foreground="Red"/>
+        <TextBlock x:Name="passwordPlaceholder" HorizontalAlignment="Left" Margin="541,217,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" RenderTransformOrigin="-0.316,0.439"/>
+        <TextBlock HorizontalAlignment="Left" Margin="541,149,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" RenderTransformOrigin="-0.316,0.439"/>
+        <TextBlock HorizontalAlignment="Left" Margin="541,80,0,0" TextWrapping="Wrap" Text="Название сервера" VerticalAlignment="Top" RenderTransformOrigin="-0.316,0.439"/>
+        <TextBox x:Name="previewBox" HorizontalAlignment="Left" Height="310" Margin="541,535,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="369" IsReadOnly="True"/>
+
+    </Grid>
+</Page>

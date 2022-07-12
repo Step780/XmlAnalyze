@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlAnalyze", "XmlAnalyze\XmlAnalyze.csproj", "{B897B236-BA7B-454C-9D4B-215121FC02BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B897B236-BA7B-454C-9D4B-215121FC02BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B897B236-BA7B-454C-9D4B-215121FC02BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B897B236-BA7B-454C-9D4B-215121FC02BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B897B236-BA7B-454C-9D4B-215121FC02BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0EF8FCB-9263-48C7-9DAD-3BE72A200B4E}
+	EndGlobalSection
+EndGlobal

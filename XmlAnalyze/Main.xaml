@@ -1,0 +1,81 @@
+﻿<Page
+      xmlns:wpfui="clr-namespace:WPFUI.Controls;assembly=WPFUI"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:eo="http://schemas.essentialobjects.com/wpf/"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:XmlAnalyze" xmlns:avalon="http://icsharpcode.net/sharpdevelop/avalonedit"
+      xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" x:Class="XmlAnalyze.Main"
+      
+      mc:Ignorable="d" 
+      Width="1440"
+      Height="1024"
+      d:DesignHeight="1024" d:DesignWidth="1440"
+      Title="Main" 
+>
+
+    <Grid Width="Auto" Height="Auto">
+        <Image x:Name="themeImg" HorizontalAlignment="Left" Height="25" Margin="1386,944,0,0" VerticalAlignment="Top" Width="26" Source="Images/brightness.png"/>
+        <avalon:TextEditor x:Name="fromBase" ShowLineNumbers="True" Margin="800,60,150,393"  Text="" Background="#FFECECEC"/>
+        <Button Content="Добавить данные с устройства" HorizontalAlignment="Stretch" Margin="275,711,947,248" VerticalAlignment="Stretch" Click="Button_Click" RenderTransformOrigin="0.5,0.5"/>
+        <Button Content="Добавить данные из сервера" HorizontalAlignment="Stretch" Margin="938,711,284,248" VerticalAlignment="Stretch" Click="Button_Click_1"/>
+        <avalon:TextEditor x:Name="fromDesktop" ShowLineNumbers="True" Margin="150,60,800,393" Background="#FFECECEC"/>
+        <Button x:Name="comapreBtn" Content="Сравнить" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Click="comapreBtn_Click" Margin="645,0,645,251" Width="150" Height="60"/>
+        <TextBlock x:Name="linesCountDesktop" HorizontalAlignment="Left" Margin="150,656,0,0" TextWrapping="Wrap" Text="Количество строк: " VerticalAlignment="Top"/>
+        <TextBlock x:Name="linesCountBase" HorizontalAlignment="Left" Margin="800,659,0,0" TextWrapping="Wrap" Text="Количество строк: " VerticalAlignment="Top"/>
+        <ToggleButton x:Name="themeButton"  Margin="1360,902,10,73" Height="49" Width="70" Checked="themeButton_Checked" Unchecked="themeButton_Unchecked" Style="{StaticResource ToggleButtonStyle1}">
+
+
+        </ToggleButton>
+        <Button x:Name="sliyanie"  HorizontalAlignment="Left" Margin="621,801,0,0" VerticalAlignment="Top" Width="192" Click="sliyanie_Click" Height="67">
+            <Grid>
+                <Image x:Name="sliyanieImg" Source="Images/merge.png" Width="30" Margin="0,0,100,0" HorizontalAlignment="Left"/>
+                <TextBlock x:Name="sliyanieTxt" Text="Слияние" Margin="65,0,0,0" FontSize="20" HorizontalAlignment="Right"/>
+
+            </Grid>
+        </Button>
+        <Button x:Name="btnSave" HorizontalAlignment="Left" Margin="621,902,0,0" VerticalAlignment="Top" Width="192" Height="67" Click="Button_Click_3">
+            <Grid>
+                <Image x:Name="saveImg" Source="Images/save.png" Width="30" Margin="0,0,0,0" HorizontalAlignment="Left"/>
+                <TextBlock x:Name="saveTxt" Text="Сохранить" Margin="45,0,0,0" FontSize="20" HorizontalAlignment="Right"/>
+
+            </Grid>
+        </Button>
+        <Button x:Name="btnGoLine" HorizontalAlignment="Left" Margin="658,60,0,0" VerticalAlignment="Top" Width="125" Click="Button_Click_4">
+            <Grid>
+                <Image x:Name="imgGo" Source="Images/transition.png" Width="20" Margin="0,0,0,0" HorizontalAlignment="Left"/>
+                <TextBlock x:Name="txtGo" Text="Переход" Margin="35,0,0,0" FontSize="15" HorizontalAlignment="Right"/>
+
+            </Grid>
+        </Button>
+        <Button  HorizontalAlignment="Left" Margin="76,60,0,0" VerticalAlignment="Top" Width="33" Height="27" BorderBrush="{x:Null}" Click="Button_Click_5">
+            <Image Source="Images/trash.png"/>
+
+        </Button>
+        <Button x:Name="btnClearBase" HorizontalAlignment="Left" Margin="1328,60,0,0" VerticalAlignment="Top" Width="33" Height="27" BorderBrush="{x:Null}" Click="btnClearBase_Click" Background="#33000000">
+            <Image Source="Images/trash.png"/>
+
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="81,604,0,0" VerticalAlignment="Top" Width="33" Height="28" Click="Button_Click_6">
+            <Image Source="Images/down-arrow.png" Width="18"/>
+
+        </Button>
+        <Button x:Name="downBtn" HorizontalAlignment="Left" Margin="1328,604,0,0" VerticalAlignment="Top" Width="33" Click="downBtn_Click" Height="28">
+            <Image Source="Images/down-arrow.png" Width="18"/>
+
+
+        </Button>
+        <Button x:Name="upBtn" HorizontalAlignment="Left" Margin="1328,113,0,0" VerticalAlignment="Top" Width="33" Click="upBtn_Click" Height="28">
+            <Image Source="Images/up-arrow.png" Width="18"/>
+        </Button>
+        <Button x:Name="upBtnDesktop" HorizontalAlignment="Left" Margin="76,113,0,0" VerticalAlignment="Top" Width="33" Height="28" Click="upBtnDesktop_Click">
+            <Image Source="Images/up-arrow.png" Width="18"/>
+
+        </Button>
+        <Button x:Name="deskToJsonBtn" Content="JSON" HorizontalAlignment="Left" Margin="339,801,0,0" VerticalAlignment="Top" Width="75" Click="deskToJsonBtn_Click"/>
+        <Button x:Name="baseToJsonBtn" Content="JSON" HorizontalAlignment="Left" Height="32" Margin="1008,812,0,0" VerticalAlignment="Top" Width="75" Click="baseToJsonBtn_Click"/>
+        <TextBlock x:Name="warningBox" HorizontalAlignment="Center" Margin="0,350,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Foreground="Red"/>
+
+    </Grid>
+</Page>
